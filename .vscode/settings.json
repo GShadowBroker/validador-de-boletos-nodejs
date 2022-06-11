@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "javascript.format.semicolons": "insert",
+  "editor.formatOnPaste": true,
+  "html.format.endWithNewline": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "typescript.format.semicolons": "insert",
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+  "less.completion.completePropertyWithSemicolon": true,
+  "scss.completion.completePropertyWithSemicolon": true
+}

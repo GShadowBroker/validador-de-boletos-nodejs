@@ -1,0 +1,38 @@
+# environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# build files
+build/
+
+# cache
+.cache
+.temp
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Optional npm cache directory
+.npm
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional eslint cache
+.eslintcache
