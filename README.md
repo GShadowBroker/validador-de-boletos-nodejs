@@ -21,7 +21,7 @@ ls validador-de-boletos-nodejs & npm install
 ```
 cp ./.env.example ./.env
 ```
-5. Inicie o servidor local:
+4. Inicie o servidor local:
 ```
 yarn run start:dev
 ```
