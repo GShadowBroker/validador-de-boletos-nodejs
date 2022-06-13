@@ -7,15 +7,15 @@ API REST que faz a validação da linha digitável de boletos bancário ou de co
 
 1. Baixe o projeto localmente utilizando o git:
 ```
-git clone este-projeto
+git clone https://github.com/GShadowBroker/validador-de-boletos-nodejs.git
 ```
 2. Entre na pasta do projeto e instale dependências:
 ```
-ls pasta-do-projeto & yarn install
+ls validador-de-boletos-nodejs & yarn install
 ```
 *ou*
 ```
-ls pasta-do-projeto & npm install
+ls validador-de-boletos-nodejs & npm install
 ```
 3. Copie o conteúdo de .env.example para .env:
 ```
