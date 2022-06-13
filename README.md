@@ -34,13 +34,13 @@ npm run start:dev
 
 Para validar uma linha digitável de um boleto, basta acessar o seguinte endpoint:
 ```
-GET http://localhost:8000/boleto/{{ linha digitável }}
+GET http://localhost:8080/boleto/{{ linha digitável }}
 ```
 A linha digitável possui 47 caractéres numéricos para boletos bancários, e 48 caractéres para boletos de concessionárias.
 
 Exemplo:
 ```
-GET http://localhost:8000/boleto/23793380296099605290241006333300689690000143014
+GET http://localhost:8080/boleto/23793380296099605290241006333300689690000143014
 ```
 Resposta:
 ```
