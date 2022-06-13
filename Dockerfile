@@ -8,6 +8,9 @@ COPY package*.json ./
 COPY yarn.lock ./
 RUN yarn install
 
+# Environment variables
+RUN cp ./.env.example ./.env
+
 # Bundle app source
 COPY . .
 
