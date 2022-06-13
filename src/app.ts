@@ -1,5 +1,6 @@
 import express, { Express } from 'express';
 import dotenv from 'dotenv';
+import cors from 'cors';
 import config from './config';
 import appController from './app.controller';
 import boletoController from './boleto/boleto.controller';
@@ -11,6 +12,7 @@ const app: Express = express();
 // app setup
 app.disable('x-powered-by');
 app.use(express.json());
+app.use(cors());
 
 // controllers
 app.use('/', appController);
