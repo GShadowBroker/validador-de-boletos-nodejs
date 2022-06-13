@@ -1,7 +1,7 @@
 import BoletoService from "../boleto/boleto.service";
 import HttpStatus from "../utils/httpStatus";
 
-describe('Test Handlers', () => {
+describe('Boleto Service Test', () => {
 	const boletoService = new BoletoService();
 
 	test('/', () => {
