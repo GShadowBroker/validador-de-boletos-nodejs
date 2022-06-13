@@ -133,13 +133,18 @@ export default class BoletoService {
 			multiplier = multiplier === 2 ? 1 : 2;
 		}
 
-		const firstDigit: string = String(verifierFactor)[ 0 ];
-		const nextDigit: string = String(Number(firstDigit) + 1);
-		const nextDezena: number = Number(nextDigit + 0);
+		let calculatedVerifier: number;
 
-		let calculatedVerifier = nextDezena - verifierFactor;
-		if (calculatedVerifier === 10) calculatedVerifier = 0;
+		if (verifierFactor < 10) {
+			calculatedVerifier = 10 - verifierFactor;
+		} else {
+			const firstDigit: string = String(verifierFactor)[ 0 ];
+			const nextDigit: string = String(Number(firstDigit) + 1);
+			const nextDezena: number = Number(nextDigit + 0);
 
+			calculatedVerifier = nextDezena - verifierFactor;
+			if (calculatedVerifier === 10) calculatedVerifier = 0;
+		}
 		if (verifierDigit !== calculatedVerifier) {
 			throw new HttpException(
 				HttpStatus.BAD_REQUEST,
