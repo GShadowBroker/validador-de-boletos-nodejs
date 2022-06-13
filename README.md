@@ -30,6 +30,17 @@ yarn run start:dev
 npm run start:dev
 ```
 
+## Rodar com o docker:
+1. Na raiz do projeto onde está o dockerfile, rode o script para criar a imagem:
+```
+docker build . -t gledyson/boleto-api
+```
+
+2. Rode o container em detached mode:
+```
+docker run -p 8080:8080 -d gledyson/boleto-api
+```
+
 ## Como usar a API
 
 Para validar uma linha digitável de um boleto, basta acessar o seguinte endpoint:
