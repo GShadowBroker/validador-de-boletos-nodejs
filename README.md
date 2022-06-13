@@ -52,3 +52,14 @@ Content-Type: application/json; charset=utf-8
 	"expirationDate": "28-04-2022"
 }
 ```
+
+## Como rodar testes unitários
+
+Para rodar os testes, basta executar o comando:
+```
+yarn run test
+```
+*ou*
+```
+npm run test
+```
